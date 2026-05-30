@@ -1,0 +1,71 @@
+/* ====================================================================
+   ADVANCED FLEX-SORTING OBSIDIAN HEADERS (UNIVERSAL SNIPPET)
+   Forces Order: Systems ⚙️ | Private 🔒 | Assets 📦 | Sorting ⏳ | Resources 📚
+   ==================================================================== */
+
+/* 1. Turn the file tree container into a flexible layout container */
+.nav-files-container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 2. Global styling configuration for section headers */
+.nav-files-container .nav-folder {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav-files-container .nav-folder::before {
+    display: none; /* Hidden by default */
+    width: calc(100% - 16px);
+    margin: 22px 0 8px 10px;
+    padding: 0 0 6px 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-size: var(--font-adaptive-smallest);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+/* ====================================================================
+   3. FORCE COMPULSORY LAYOUT ORDERING via FLEX-ORDER
+   ==================================================================== */
+
+/* SYSTEMS GROUP (Order 1) */
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="⚙️"]) { order: 1 !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="⚙️"]):not(.nav-folder:has(> .nav-folder-title[data-path*="⚙️"]) + .nav-folder)::before {
+    display: block !important;
+    content: "Systems";
+}
+
+/* PRIVATE GROUP (Order 2) */
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="🔒"]) { order: 2 !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="🔒"]):not(.nav-folder:has(> .nav-folder-title[data-path*="🔒"]) + .nav-folder)::before {
+    display: block !important;
+    content: "Private";
+}
+
+/* ASSETS GROUP (Order 3) */
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="📦"]) { order: 3 !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="📦"]):not(.nav-folder:has(> .nav-folder-title[data-path*="📦"]) + .nav-folder)::before {
+    display: block !important;
+    content: "Assets";
+}
+
+/* SORTING GROUP (Order 4) */
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="⏳"]) { order: 4 !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="⏳"]):not(.nav-folder:has(> .nav-folder-title[data-path*="⏳"]) + .nav-folder)::before {
+    display: block !important;
+    content: "Sorting";
+}
+
+/* RESOURCES GROUP (Order 5) */
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="📚"]) { order: 5 !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="📚"]):not(.nav-folder:has(> .nav-folder-title[data-path*="📚"]) + .nav-folder)::before {
+    display: block !important;
+    content: "Resources";
+}
