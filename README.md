@@ -65,9 +65,13 @@ The CSS script will automatically group, organize, and position them in this exa
 
 ---
 ![Step1](step1.png)
+
 ![Step2](step2.png)
+
 ![Step3](step3.png)
+
 ![Step4](step4.png)
+
 ![Step5](step5.png)
 
 ---
