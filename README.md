@@ -64,7 +64,13 @@ The CSS script will automatically group, organize, and position them in this exa
 4. Rename your folders using the [Prefix Cheat-Sheet](#️-folder-prefix-cheat-sheet) to see your new layout sections snap instantly into order!
 
 ---
+![Step1](step1.png)
+![Step2](step2.png)
+![Step3](step3.png)
+![Step4](step4.png)
+![Step5](step5.png)
 
+---
 ## 🤝 Contributing & Troubleshooting
 
 ### My Headers are repeating or out of order!
