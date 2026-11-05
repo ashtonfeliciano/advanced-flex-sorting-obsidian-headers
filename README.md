@@ -2,8 +2,10 @@
 
 An elegant, robust CSS layout solution for Obsidian v1.6.5+ that automatically injects visual structural headers above your folders and forces custom ordering without modifying alphabetical sorting behavior.
 
-![Obsidian UI Layout](https://shields.io)
-![License](https://shields.io)
+![Works with Obsidian 1.15.0](https://img.shields.io/badge/works_with_Obsidian-1.15.0-7C3AED?logo=obsidian&logoColor=white)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue)
+
+Reviewed against Obsidian 1.15.0 (desktop, public release of 2 November 2026) on 5 November 2026. The selectors were checked by reading the official release notes and developer docs, not by running Obsidian.
 
 ---
 
