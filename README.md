@@ -2,8 +2,7 @@
 
 An elegant, robust CSS layout solution for Obsidian v1.6.5+ that automatically injects visual structural headers above your folders and forces custom ordering without modifying alphabetical sorting behavior.
 
-![Obsidian UI Layout](https://shields.io)
-![License](https://shields.io)
+![Obsidian CSS snippet](https://img.shields.io/badge/Obsidian-CSS%20snippet-7C3AED)
 
 ---
 
